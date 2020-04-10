@@ -1,0 +1,1506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- HTML5 shim和Respond.js是为了让IE8支持HTML5元素和媒体查询(media queries)功能 -->
+    <!-- 警告：通过 file://协议访问页面时 Respond.js 不起作用 -->
+    <!-- 条件注释：条件注释的作用就是当判断条件满足时，就会执行注释中的HTML代码，不满足时会当做注释忽略掉-->
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="line">
+            <div class="container topFont hidden-sm hidden-xs">
+                <div class="row">
+                    <div class="col-md-2 text-center">
+                        <i class="icon-mobilephone"></i>
+                        <a href="#">手机微金所</a>
+                        <i class="glyphicon glyphicon-chevron-down"></i>
+                        <img src="./images/c_06.jpg" alt="" class="erweima">
+                    </div>
+                    <div class="col-md-5 text-center">
+                        <i class="icon-telephone"></i>
+                        <span>4006-89-4006（服务时间：9:00-21:00）</span>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <a href="#">常见问题</a>
+                        <a href="#">财富登陆</a>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <a href="#" class="btn btn-danger btn-sm">免费注册</a>
+                        <a href="#">登陆</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="container bottomFont">
+                <div class="navbar-header">
+                    <button type="button" style="background-color: #ccc; margin-top: 20px;"
+                        class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav_menu"
+                        aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar" style="background-color: #ffffff;"></span>
+                        <span class="icon-bar" style="background-color: #ffffff;"></span>
+                        <span class="icon-bar" style="background-color: #ffffff;"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"></a>
+                    <i class="icon-icon"></i>
+                    <i class="icon-logo"></i>
+                </div>
+                <div>
+                    <ul class="nav navbar-nav collapse navbar-collapse" id="nav_menu">
+                        <li class="li1"><a href="#">我要投资</a></li>
+                        <li><a href="#">我要借款</a></li>
+                        <li><a href="#">平台介绍</a></li>
+                        <li><a href="#">新手专区</a></li>
+                        <li><a href="#">最新动态</a></li>
+                        <li><a href="#">微论坛</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
+                        <li><a href="#">个人中心</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 轮播图 -->
+    <section id="loopThird">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- 小圆点 -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            </ol>
+
+            <!-- 图片 -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active" data-image-xs='./images/slide_01_640x340.jpg'
+                    data-image-lg='./images/slide_01_2000x410.jpg'>
+                    <!-- <img src="./images/slide_01_2000x410.jpg" alt="..."> -->
+                </div>
+                <div class="item" data-image-xs='./images/slide_02_640x340.jpg'
+                    data-image-lg='./images/slide_02_2000x410.jpg'>
+                    <!-- <img src="./images/slide_02_2000x410.jpg" alt="..."> -->
+                </div>
+                <div class="item" data-image-xs='./images/slide_03_640x340.jpg'
+                    data-image-lg='./images/slide_03_2000x410.jpg'>
+                    <!-- <img src="./images/slide_03_2000x410.jpg" alt="..."> -->
+                </div>
+                <div class="item" data-image-xs='./images/slide_04_640x340.jpg'
+                    data-image-lg='./images/slide_04_2000x410.jpg'>
+                    <!-- <img src="./images/slide_04_2000x410.jpg" alt="..."> -->
+                </div>
+            </div>
+
+            <!-- 两边箭头 -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <!-- 网格 -->
+    <section class="wangge">
+        <div class="container">
+            <div class="col-md-4">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="icon-uniE907"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">支付交易保证</h4>
+                        <span>银联支付全程保障资金安全</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="icon-uniE904"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">平台财产安全</h4>
+                        <span>由PICC保驾护航</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="icon-uniE902"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">交易安全</h4>
+                        <span>由中国人寿保险对借款人承保</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="icon-uniE906"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">安全保障</h4>
+                        <span>独创八层安全保证机制</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="icon-uniE905"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">筛选优质资产</h4>
+                        <span>对接上海资信征询系统</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="icon-uniE905"></i>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">联合信息发布</h4>
+                        <span>通过路透社共同发布利率指数报告</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="col-md-6">
+                    <i class="icon-uniE906"></i>
+                    <span>现在有458人在排队，累计预约交易成功7409次。 什么是预约投标？ 立即预约</span>
+                </div>
+                <div class="col-md-6">
+                    <div class="pull-right hidden-sm hidden-xs">
+                        <i class="icon-uniE905"></i>
+                        <span>微信企业宣传片</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 选项卡 -->
+    <section class="select">
+        <div class="container">
+            <div class="ulWrapper">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab"
+                            data-toggle="tab">特别推荐</a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab"
+                            data-toggle="tab">微投资</a>
+                    </li>
+                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab"
+                            data-toggle="tab">微小宝</a></li>
+                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab"
+                            data-toggle="tab">微消费</a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab"
+                            data-toggle="tab">微增利</a>
+                    </li>
+                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab"
+                            data-toggle="tab">微金宝</a></li>
+                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab"
+                            data-toggle="tab">微转让</a></li>
+                </ul>
+            </div>
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade in active" id="home">
+                    <div class="container selectMargin">
+                        <div class="row boxShadow">
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p><span style="font-size: 30px;">8</span><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="hand  twoTab" id="hand">
+                                    <div class="tooltips">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="北京市">京</a>
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="实名认证">实</a>
+                                    </div>
+                                    <p style="margin-bottom: 0;"><span style="font-size: 30px;">8</span><sub>%</sub></p>
+                                    <p style="margin-bottom: 0;">年利率</p>
+                                </div>
+                                <div class="body row twoTab" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand hand1" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body body1 row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right fullBox">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <i class="icon-uniE927 full"></i>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand hand1" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body body1 row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right fullBox">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <i class="icon-uniE927 full"></i>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand hand1" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body body1 row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right fullBox">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <i class="icon-uniE927 full"></i>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand hand1" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body body1 row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right fullBox">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <i class="icon-uniE927 full"></i>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile">
+                    <div class="container selectMargin">
+                        <div class="row boxShadow">
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p><span style="font-size: 30px;">8</span><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="hand  twoTab" id="hand">
+                                    <div class="tooltips">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="北京市">京</a>
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="实名认证">实</a>
+                                    </div>
+                                    <p style="margin-bottom: 0;"><span style="font-size: 30px;">8</span><sub>%</sub></p>
+                                    <p style="margin-bottom: 0;">年利率</p>
+                                </div>
+                                <div class="body row twoTab" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="messages">
+                    <div class="container selectMargin">
+                        <div class="row boxShadow">
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p><span style="font-size: 30px;">8</span><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="hand  twoTab" id="hand">
+                                    <div class="tooltips">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="北京市">京</a>
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="实名认证">实</a>
+                                    </div>
+                                    <p style="margin-bottom: 0;"><span style="font-size: 30px;">8</span><sub>%</sub></p>
+                                    <p style="margin-bottom: 0;">年利率</p>
+                                </div>
+                                <div class="body row twoTab" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand hand1" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body body1 row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand hand1" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body body1 row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand hand1" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body body1 row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand hand1" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body body1 row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="settings">
+                    <div class="container selectMargin">
+                        <div class="row boxShadow">
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p><span style="font-size: 30px;">8</span><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="hand  twoTab" id="hand">
+                                    <div class="tooltips">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="北京市">京</a>
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="实名认证">实</a>
+                                    </div>
+                                    <p style="margin-bottom: 0;"><span style="font-size: 30px;">8</span><sub>%</sub></p>
+                                    <p style="margin-bottom: 0;">年利率</p>
+                                </div>
+                                <div class="body row twoTab" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile">
+                    <div class="container selectMargin">
+                        <div class="row boxShadow">
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p><span style="font-size: 30px;">8</span><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="hand  twoTab" id="hand">
+                                    <div class="tooltips">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="北京市">京</a>
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="实名认证">实</a>
+                                    </div>
+                                    <p style="margin-bottom: 0;"><span style="font-size: 30px;">8</span><sub>%</sub></p>
+                                    <p style="margin-bottom: 0;">年利率</p>
+                                </div>
+                                <div class="body row twoTab" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="messages">
+                    <div class="container selectMargin">
+                        <div class="row boxShadow">
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p><span style="font-size: 30px;">8</span><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="hand  twoTab" id="hand">
+                                    <div class="tooltips">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="北京市">京</a>
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="实名认证">实</a>
+                                    </div>
+                                    <p style="margin-bottom: 0;"><span style="font-size: 30px;">8</span><sub>%</sub></p>
+                                    <p style="margin-bottom: 0;">年利率</p>
+                                </div>
+                                <div class="body row twoTab" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand hand1" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body body1 row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand hand1" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body body1 row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand hand1" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body body1 row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand hand1" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body body1 row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="settings">
+                    <div class="container selectMargin">
+                        <div class="row boxShadow">
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p><span style="font-size: 30px;">8</span><sub>%</sub></p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="hand  twoTab" id="hand">
+                                    <div class="tooltips">
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="北京市">京</a>
+                                        <a href="#" data-toggle="tooltip" data-placement="top" title="实名认证">实</a>
+                                    </div>
+                                    <p style="margin-bottom: 0;"><span style="font-size: 30px;">8</span><sub>%</sub></p>
+                                    <p style="margin-bottom: 0;">年利率</p>
+                                </div>
+                                <div class="body row twoTab" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6 ">
+                                <div class="hand" id="hand">
+                                    <p>8%</p>
+                                    <p>年利率</p>
+                                </div>
+                                <div class="body row" id="body">
+                                    <h5>新手体验标0650期</h5>
+                                    <div class="col-md-6 col-sm-6 col-xs-6 bodyInner">
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                        <p>起投金额(元)</p>
+                                        <span>0.01万</span>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="pull-right">
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                            <p>起投金额(元)</p>
+                                            <span>0.01万</span>
+                                        </div>
+                                    </div>
+                                    <div class="circleUp"></div>
+                                    <div class="circleDown"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <!-- 新闻 -->
+    <section class="news">
+        <div class="container">
+            <div class="col-md-2 col-md-offset-2 news-left text-center">
+                <h3 id="newTitle">全部新闻</h3>
+            </div>
+            <div class="col-md-1">
+                <ul class="nav nav-pills nav-stacked" id="newsNav">
+                    <li role="presentation" class="active"><a href="#new01" aria-controls="home" role="tab"
+                            data-toggle="tab" data-title="全部新闻"><i class="icon-news01"></i></a></li>
+                    <li role="presentation"><a href="#new02" aria-controls="profile" role="tab" data-toggle="tab"
+                            data-title="娱乐新闻"><i class="icon-news02"></i></a></li>
+                    <li role="presentation"><a href="#new03" aria-controls="messages" role="tab" data-toggle="tab"
+                            data-title="重磅消息"><i class="icon-news03"></i></a></li>
+                    <li role="presentation"><a href="#new04" aria-controls="settings" role="tab" data-toggle="tab"
+                            data-title="军事新闻"><i class="icon-news04"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-7">
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active newList" id="new01">
+                        <ul>
+                            <li>【重磅新闻】快要开学了！快要开学了！快要开学了！</li>
+                            <li>【重磅新闻】快要开学了！快要开学了！快要开学了！</li>
+                            <li>【重磅新闻】快要开学了！快要开学了！快要开学了！</li>
+                            <li>【重磅新闻】快要开学了！快要开学了！快要开学了！</li>
+                            <li>【重磅新闻】快要开学了！快要开学了！快要开学了！</li>
+                            <li>【重磅新闻】快要开学了！快要开学了！快要开学了！</li>
+                            <li>【重磅新闻】快要开学了！快要开学了！快要开学了！</li>
+                            <li>【重磅新闻】快要开学了！快要开学了！快要开学了！</li>
+                            <li>【重磅新闻】快要开学了！快要开学了！快要开学了！</li>
+                            <li>【重磅新闻】快要开学了！快要开学了！快要开学了！</li>
+                        </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade newList" id="new02">
+                        <ul>
+                            <li>【重磅新闻】疫情结束了！疫情结束了！疫情结束了！</li>
+                            <li>【重磅新闻】疫情结束了！疫情结束了！疫情结束了</li>
+                            <li>【重磅新闻】疫情结束了！疫情结束了！疫情结束了</li>
+                            <li>【重磅新闻】疫情结束了！疫情结束了！疫情结束了</li>
+                            <li>【重磅新闻】疫情结束了！疫情结束了！疫情结束了</li>
+                            <li>【重磅新闻】疫情结束了！疫情结束了！疫情结束了</li>
+                            <li>【重磅新闻】疫情结束了！疫情结束了！疫情结束了！</li>
+                            <li>【重磅新闻】疫情结束了！疫情结束了！疫情结束了！</li>
+                            <li>【重磅新闻】疫情结束了！疫情结束了！疫情结束了！</li>
+                            <li>【重磅新闻】疫情结束了！疫情结束了！疫情结束了！</li>
+                        </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade newList" id="new03">
+                        <ul>
+                            <li>美国经济崩盘了！美国经济崩盘了！美国经济崩盘了！</li>
+                            <li>美国经济崩盘了！美国经济崩盘了！美国经济崩盘了！</li>
+                            <li>美国经济崩盘了！美国经济崩盘了！美国经济崩盘了！</li>
+                            <li>美国经济崩盘了！美国经济崩盘了！美国经济崩盘了！</li>
+                            <li>美国经济崩盘了！美国经济崩盘了！美国经济崩盘了！</li>
+                            <li>美国经济崩盘了！美国经济崩盘了！美国经济崩盘了！</li>
+                            <li>美国经济崩盘了！美国经济崩盘了！美国经济崩盘了！</li>
+                            <li>美国经济崩盘了！美国经济崩盘了！美国经济崩盘了！</li>
+                            <li>美国经济崩盘了！美国经济崩盘了！美国经济崩盘了！</li>
+                            <li>美国经济崩盘了！美国经济崩盘了！美国经济崩盘了！</li>
+                        </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade newList" id="new04">
+                        <ul>
+                            <li>玩会英雄联盟吧！玩会英雄联盟吧！玩会英雄联盟吧！</li>
+                            <li>玩会英雄联盟吧！玩会英雄联盟吧！玩会英雄联盟吧!</li>
+                            <li>玩会英雄联盟吧！玩会英雄联盟吧！玩会英雄联盟吧！</li>
+                            <li>玩会英雄联盟吧！玩会英雄联盟吧！玩会英雄联盟吧！</li>
+                            <li>玩会英雄联盟吧！玩会英雄联盟吧！玩会英雄联盟吧！</li>
+                            <li>玩会英雄联盟吧！玩会英雄联盟吧！玩会英雄联盟吧！</li>
+                            <li>玩会英雄联盟吧！玩会英雄联盟吧！玩会英雄联盟吧！</li>
+                            <li>玩会英雄联盟吧！玩会英雄联盟吧！玩会英雄联盟吧！</li>
+                            <li>玩会英雄联盟吧！玩会英雄联盟吧！玩会英雄联盟吧！</li>
+                            <li>玩会英雄联盟吧！玩会英雄联盟吧！玩会英雄联盟吧！</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footerLine text-center container hidden-sm hidden-xs">
+            <h3>合作伙伴</h3>
+            <div class="footIcon">
+                <ul>
+
+                    <li><a href="#" class="icon-uniE930"></a></li>
+                    <li><a href="#" class="icon-uniE92F"></a></li>
+                    <li> <a href="#" class="icon-uniE92E"></a></li>
+                    <li> <a href="#" class="icon-uniE92A"></a></li>
+                    <li> <a href="#" class="icon-uniE929"></a></li>
+                    <li> <a href="#" class="icon-uniE931"></a></li>
+                    <li> <a href="#" class="icon-uniE92C"></a></li>
+                    <li> <a href="#" class="icon-uniE92B"></a></li>
+                    <li> <a href="#" class="icon-uniE92D"></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./lib/jquery/jquery.min.js"></script>
+<script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="./js/main.js"></script>
+
+</html>
